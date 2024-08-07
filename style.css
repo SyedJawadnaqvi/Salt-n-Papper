@@ -1,0 +1,257 @@
+body{
+    background-color: black;
+}
+.picture img{
+    width:100% ;
+    height: 100%;
+}
+
+
+.parent{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+.logo img{
+    height: 70px;
+    width: 180px;
+    
+}
+.chiled ul{ 
+    display: flex;
+    color: white;
+    list-style: none;
+    gap: 30px;
+    position: relative;
+    left: 140px;
+    top: 8px;
+
+}
+.botton BUtton{
+    background-color: black;
+    color: white;
+    border: 1px  solid WHITE;
+    border-radius: 50px;
+    padding: 15px;
+}
+#button{
+    background-color: rgb(223, 9, 9);
+}
+i{
+   size: 166px;
+}
+h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}    
+span {
+    font-family: "Ruslan Display", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+  }
+  p{
+    text-align: center;
+    color: white;
+  }
+.caard{ 
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    background-color: black;
+
+}
+.cards img{
+    height: 160px;
+    width: 300px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 5px;
+    padding: 18px;
+
+}
+#cardd{
+    position: relative;
+    left: 70px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    padding: 12px 70px 12px 70px;
+    margin-top: 30px;
+    
+}
+.heading{
+    /* display: flex; */
+    /* justify-content: center; */
+    height: 100%;
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+
+}
+.hole{
+    height: 150px;
+}
+#background{
+    position: absolute;
+    left: 1000px;
+}
+h3{
+    color: white;
+}
+#h3{
+    position: relative;
+    bottom: 20px;
+}
+small{
+    color: red;
+    font-size: 20px;
+}    
+.head{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+#backg{
+    position: absolute;
+    left: 40px;
+}
+.container{
+    text-align: center;
+
+    padding-top:50px ;
+}
+.main-head{
+    padding-top: 50px;
+}
+.h3{
+    font-size: 50px;
+    color: white;
+}
+.pic-card{
+    display: flex;
+    justify-content: center;
+}
+.pics img{
+    height: 250px;
+    width: 350px;
+    margin: 15px;
+}
+.butun{
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 15px 25px 15px 25px;
+
+}
+.mainn{
+    height: 100%;
+    width: 100%;
+    background-color:black ;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    color: white;
+}
+.contact img{
+    height: 370px;
+    width: 700px;
+}
+.pos img{
+}
+button{
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 15px 25px 15px 25px;   
+}
+#bu{
+    background-color: rgb(10, 241, 49);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 15px 25px 15px 25px; 
+}
+/* .bg-stone-80{
+background-color: rgb(41 37 36 / var(--tw-bg-opacity));
+} */
+.loc{
+    display: flex;
+    justify-content: center;
+}
+.last-location{
+    background-color: white;
+    height: 260px;
+    width: 350px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+.abc{
+    color: black;
+}
+.boxxx{
+    color: black;
+}
+.burger{
+    display: flex;
+    justify-content: center;
+}
+.burg img{
+    height: 270px;
+    width: 260px;
+    margin: 5px;
+}
+.custom-container{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(31, 30, 30); */
+    height: 100%;
+    width: 100%;
+}
+.first-footer{
+    margin-right: 80px;
+}
+
+.footer{
+        display: flex;
+        width: 700px;
+        gap: 70px;
+}
+.info-usefull-links{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    color: rgb(143, 138, 138);
+}
+.site-links{
+    width: 500px;
+}
+.listsss{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
+}
+.listsss li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0px 5px;
+    padding-bottom: 16px;
+}
+ul{
+    color: white;
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+}
